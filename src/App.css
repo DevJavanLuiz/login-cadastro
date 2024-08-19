@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  background-image: url(/img/bg-floresta.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+
+input,
+button,
+a {
+  transition: all 200ms ease-in-out;
+}
